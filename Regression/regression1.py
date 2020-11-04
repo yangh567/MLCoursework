@@ -19,7 +19,7 @@ n_points = X_test.shape[0]
 y_pred_pp = np.ones((n_points, 2))
 y_pred_pp[:, 0] = range(n_points)
 y_pred_pp[:, 1] = y_pred
-#np.savetxt('my_submission.csv', y_pred_pp, fmt='%d', delimiter=",",header=test_header, comments="")
+np.savetxt('my_submission.csv', y_pred_pp, fmt='%d', delimiter=",",header=test_header, comments="")
 
 # Note: fmt='%d' denotes that all values should be formatted as integers which
 # is appropriate for classification. For regression, where the second column
