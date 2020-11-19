@@ -2,7 +2,6 @@
 
 import numpy as np
 
-
 # Load training and testing data
 X_train = np.loadtxt('X_train.csv', delimiter=',', skiprows=1)
 X_test = np.loadtxt('X_test.csv', delimiter=',', skiprows=1)
